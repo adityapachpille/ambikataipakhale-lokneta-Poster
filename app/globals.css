@@ -192,4 +192,25 @@ canvas.dragging {
   .footerInner {
     text-align: center; /* center footer on mobile */
   }
+
+
+
+
+  .footerInner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 12px 16px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  flex-wrap: wrap;      /* stacks nicely on small screens */
+  gap: 6px;
+}
+
+.footerText {
+  font-weight: 600;
+}
+
 }
