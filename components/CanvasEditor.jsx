@@ -111,7 +111,7 @@ export default function CanvasEditor() {
     try {
       await navigator.share({
         title: "मी मतदार",
-        text: "माझा नगराध्यक्ष डॉ. दिलीप रामकृष्ण रत्नपारखी",
+        text: "माझा उमेदवार सौ.अंबिकाताई लक्ष्मण पखाले",
         url: window.location.href,
       });
     } catch {
@@ -124,7 +124,7 @@ export default function CanvasEditor() {
     <>
       {/* Top bar */}
       <div className="topBarWrapper">
-        <h2 className="title">📲🗳️ Packy Media Poster Editor Software 👥📸✨</h2>
+        <h2 className="title">📲🗳️ Lokneta Poster Editor Software 👥📸✨</h2>
         <div className="topBar">
           <button className="button" onClick={() => fileRef.current?.click()}>
             📤 Import Photo
