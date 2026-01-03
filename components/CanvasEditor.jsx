@@ -124,7 +124,7 @@ export default function CanvasEditor() {
     <>
       {/* Top bar */}
       <div className="topBarWrapper">
-        <h2 className="title">📲🗳️ Lokneta Poster Editor Software 👥📸✨</h2>
+        <h2 className="title">📲🗳️ Lokneta Poster Editor Softwaree 👥📸✨</h2>
         <div className="topBar">
           <button className="button" onClick={() => fileRef.current?.click()}>
             📤 Import Photo
