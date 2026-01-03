@@ -9,13 +9,13 @@ export default function CanvasEditor() {
   const [offset, setOffset] = useState({ x: 0, y: 0 });
 
   const canvasSize = 600;
-  const [imageWidth, setImageWidth] = useState(160);
+  const [imageWidth, setImageWidth] = useState(155);
   const [imageHeight, setImageHeight] = useState(215);
   const [scale, setScale] = useState(1);
 
   const [position, setPosition] = useState({
     x: 57,
-    y: canvasSize / 2 - imageHeight / 2 + 18,
+    y: canvasSize / 2 - imageHeight / 2 + 10,
   });
 
   const handleUpload = (e) => {
@@ -124,7 +124,7 @@ export default function CanvasEditor() {
     <>
       {/* Top bar */}
       <div className="topBarWrapper">
-        <h2 className="title">📲🗳️ Lokneta Poster Editor Software 👥📸✨</h2>
+        <h2 className="title">📲🗳️ Lokneta Poster Editor Softwaree 👥📸✨</h2>
         <div className="topBar">
           <button className="button" onClick={() => fileRef.current?.click()}>
             📤 Import Photo
