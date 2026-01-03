@@ -9,13 +9,13 @@ export default function CanvasEditor() {
   const [offset, setOffset] = useState({ x: 0, y: 0 });
 
   const canvasSize = 600;
-  const [imageWidth, setImageWidth] = useState(157);
+  const [imageWidth, setImageWidth] = useState(159);
   const [imageHeight, setImageHeight] = useState(215);
   const [scale, setScale] = useState(1);
 
   const [position, setPosition] = useState({
     x: 55,
-    y: canvasSize / 2 - imageHeight / 2 + 45,
+    y: canvasSize / 2 - imageHeight / 2 + 42,
   });
 
   const handleUpload = (e) => {
