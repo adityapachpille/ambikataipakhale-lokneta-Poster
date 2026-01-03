@@ -5,22 +5,21 @@ export default function Footer() {
     <footer className="bg-gray-100 dark:bg-gray-900 text-gray-700 dark:text-gray-300 py-4 px-4">
       <div className="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-center text-center sm:text-left text-base sm:text-lg gap-2">
 
-        {/* Left Side */}
+        {/* Left Text */}
         <p className="font-semibold">
-          Powered by <span className="font-bold">Vision Frame Media</span>
+          Powered By Vision Frame Media.
         </p>
 
-        {/* Right Side */}
-        <p className="font-semibold">
-          Designed & Developed by{" "}
+        {/* Right Text / Link */}
+        <div>
           <Link
             href="https://wa.me/918806112331"
             target="_blank"
-            className="hover:underline"
+            className="hover:underline font-semibold"
           >
-            ARP Digital Solutions
+            Design & Developed by ARP Digital Solutions.
           </Link>
-        </p>
+        </div>
       </div>
     </footer>
   );
